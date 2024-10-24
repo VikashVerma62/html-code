@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav bar starts from here */
+  #navbar  ul {
+    display: flex;
+     justify-content: space-evenly;
+     gap: 80px;
+    overflow: hidden;
+     
+     
+
+} 
+#navbar{
+    position: fixed;
+}
+ #navbar nav{
+    display: flex;
+    gap: 1000px;
+
+    
+    
+} 
+#navbar nav ul{
+    list-style-type: none;
+}
+#navbar nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+
+}
+/* navbar ends here */
+
+
+
+/* ================ home starts from here=========================== */
+#home{
+ height: 800px;
+ width: 100%;  
+ display: flex; 
+ background-color: aquamarine;
+}
+ #home .image{
+    margin-top: 170px;
+    margin-left: 130px;
+    /* padding-top: 300px; */
+}
+  #home .homediv1{
+    
+    height: 100%;
+    width: 50%;
+    padding-top: 200px;
+    padding-left: 40px;
+    font-size: larger;
+    
+
+}
+#home .homediv1 h1{
+    font-size: 70px;
+}
+#home .homediv1 h4{
+    font-size: 30px;
+}
+#home .homediv1 p{
+    font-size: 20px;
+}
+#home .homediv2{
+    display: flex;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+
+/* About is starts from here */
+#About{
+
+
+     padding-top: 150px;
+    margin-left: 150px;
+     overflow: hidden;
+
+#About .h1{
+margin-left: 700px;
+}
+
+}
+ #About .imagediv{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 0%;
+    justify-content: space-between;
+
+
+ }
+
+
+
+
+/* this is a button in about  */
+#btn1{
+    margin-top: 100px;
+background-color: aqua;
+margin-left: 600px;
+font-size: 25px;
+
+
+
+}
+#btn1:hover{
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+    font-weight: lighter;
+    font-size: 30px;
+    /* background-color: transparent; */
+}  
+/* About section ends here */
+
+
+/* ================= Team section starts from here */
+#Team{
+    height:600px;
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 100px;
+
+}
+#Team .teamcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    border-radius: 40%;
+}
+/* Team section ends here */
+
+
+
+
+
+/* Contect section starts from here */
+#Contect{
+    height: 600px;
+    width: 100%;
+    background-color: darkgray;
+    margin-top: 70px;
+
+}
+#Contect h1{
+    font-size: 50px;
+    margin-left: 35%;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+#Contect form{
+    margin-left: 35%;
+    font-size: 30px;
+
+
+}
+#Contect form input {
+    font-size: 30px;
+    padding-right: 70px;
+}
