@@ -87,6 +87,7 @@ margin-left: 700px;
 }
  #About .imagediv{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 30px;
     margin-left: 0%;
     justify-content: space-between;
@@ -130,6 +131,7 @@ font-size: 25px;
 #Team .teamcontainer{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 50px;
     border-radius: 40%;
 }
@@ -139,7 +141,7 @@ font-size: 25px;
 
 
 
-/* Contect section starts from here */
+/* Contect section starts from here gjjik*/
 #Contect{
     height: 600px;
     width: 100%;
@@ -162,4 +164,62 @@ font-size: 25px;
 #Contect form input {
     font-size: 30px;
     padding-right: 70px;
+}
+
+
+/* responsive */
+
+@media(max-width:450px) {
+    #home{
+        height: 1000px;
+        /* overflow-y: hidden; */
+       
+    }
+
+
+
+    #home .image img {
+        height: 250px;
+        margin-top: 410px;
+    
+        margin-left: -280px;
+    }
+    
+    #home .homediv1 h1{
+        font-size: 30px;
+    }
+    #home .homediv1 h4{
+        display: none;
+    }
+    #home .homediv1 p{
+        font-size: 14px;
+    }
+    #home .homediv2 img{
+        margin-top: 260px;
+        gap: 10px;
+        
+        margin-left:-40px ;
+    }
+
+    
+    #Contect{
+        height: 600px;
+        width: 100vw;
+        background-color: darkgray;
+        margin-top: 1000px;
+        height: 100vh;
+        width: 100vw;
+        margin-left:-150px ;
+       
+
+    }
+    #Contect form input {
+        font-size: 20px;
+        padding-right: 70px;
+    }
+    #Contact form .btn2{
+        text-align: center;
+
+    }
+
 }
